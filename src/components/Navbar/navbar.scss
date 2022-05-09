@@ -1,0 +1,26 @@
+.Navbar {
+  background: #daa87b;
+  width: 5%;
+  min-width: 75px;
+  height: 100vh;
+  align-self: flex-end;
+
+  & .icons {
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    & .icon {
+      transform: scale(1.5);
+      cursor: pointer;
+      transition: all 0.2s;
+
+      &:hover {
+        transform: scale(1.75) translate(0px, -3px);
+      }
+    }
+  }
+}
