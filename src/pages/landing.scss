@@ -1,3 +1,19 @@
 .Landing {
   width: calc(100% - 75px);
+  display: flex;
+
+  & .left {
+    width: 50%;
+    background: #211d1d;
+  }
+
+  & .right {
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+
+    & img {
+      width: 100%;
+    }
+  }
 }
