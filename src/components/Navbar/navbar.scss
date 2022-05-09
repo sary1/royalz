@@ -1,9 +1,11 @@
 .Navbar {
   background: #daa87b;
-  width: 5%;
   min-width: 75px;
   height: 100vh;
   align-self: flex-end;
+  position: fixed;
+  top: 0;
+  right: 0;
 
   & .icons {
     height: 100%;
