@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./navbar.scss";
 
 export const Navbar = () => {
