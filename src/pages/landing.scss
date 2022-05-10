@@ -5,6 +5,44 @@
   & .left {
     width: 50%;
     background: #211d1d;
+    overflow: hidden;
+
+    & .topNav {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0px 30px;
+      position: fixed;
+
+      & .logo {
+        & img {
+          width: 100px;
+        }
+      }
+
+      & .search {
+        position: relative;
+        right: 55%;
+        padding: 0.2rem 1rem;
+        align-items: center;
+        width: 200px;
+
+        &-icon {
+          color: gray;
+        }
+
+        & input {
+          background: transparent;
+          border: none;
+          padding: 0px 20px;
+          outline: none;
+          color: gray;
+          max-width: 150px;
+        }
+      }
+    }
   }
 
   & .right {
