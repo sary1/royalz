@@ -1,6 +1,8 @@
 .Landing {
   width: calc(100% - 75px);
   display: flex;
+  height: 100vh;
+  overflow: hidden;
 
   & .left {
     width: 50%;
@@ -41,6 +43,33 @@
           color: gray;
           max-width: 150px;
         }
+      }
+    }
+
+    & .contents {
+      color: white;
+      padding: 300px 50px 10px;
+
+      & .breakline {
+        width: 350px;
+        height: 2px;
+        margin: 20px 0px;
+        background: gray;
+      }
+
+      & span {
+        color: gray;
+      }
+
+      & p {
+        font-size: 14px;
+      }
+
+      & button {
+        background: #daa87b;
+        color: white;
+        padding: 0.5rem 2rem;
+        margin-top: 25px;
       }
     }
   }
